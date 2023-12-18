@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(58, 58, 58);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+   
+}
+hr{
+    font-weight: bold;
+    height: 3px;
+    background-color: white ;
+    margin-bottom: 10px;
+}
+.velha{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.velha button{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 50px;
+}
+.player{
+    color: white;
+}
